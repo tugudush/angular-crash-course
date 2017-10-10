@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 
+declare var jquery:any;
+declare var $ :any;
+
 @Component({
   selector: 'event-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  templateUrl: './app.component.html'
 })
-export class AppComponent  {
-  name = 'Angular';
+export class AppComponent {
+  pageTitle: string = 'Local Events App';
 }
