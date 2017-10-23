@@ -3,3 +3,10 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;  
 }
+
+table img {
+  /*
+  width: 50px;
+  margin: 2px;
+  */
+}
